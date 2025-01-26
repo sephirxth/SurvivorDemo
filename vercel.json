@@ -6,23 +6,45 @@
         {
           "key": "Content-Encoding",
           "value": "br"
-        },
-        {
-          "key": "Content-Type",
-          "value": "application/x-javascript"
         }
       ]
     },
     {
-      "source": "/Build/(.*).gz",
+      "source": "/Build/(.*).wasm.br",
       "headers": [
         {
           "key": "Content-Encoding",
-          "value": "gzip"
+          "value": "br"
         },
         {
           "key": "Content-Type",
-          "value": "application/x-javascript"
+          "value": "application/wasm"
+        }
+      ]
+    },
+    {
+      "source": "/Build/(.*).js.br",
+      "headers": [
+        {
+          "key": "Content-Encoding",
+          "value": "br"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/javascript"
+        }
+      ]
+    },
+    {
+      "source": "/Build/(.*).data.br",
+      "headers": [
+        {
+          "key": "Content-Encoding",
+          "value": "br"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/octet-stream"
         }
       ]
     }
