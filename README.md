@@ -57,6 +57,17 @@ npx serve .
 | WASD / Arrow Keys | Move character |
 | Mouse | Aim direction |
 
+
+## Related Projects
+
+| Project | What It Does |
+|---------|-------------|
+| [NetOps](https://github.com/sephirxth/transport-sim) | Data center network routing puzzle game (Phaser 3 + TypeScript) |
+| [WitMani Game Animator](https://github.com/sephirxth/WitMani-game-animator) | Generate game character animations with AI — text to sprite sheet |
+| [LLM Code Test](https://github.com/sephirxth/LLM_code_test) | Benchmark comparing LLMs on code generation (physics simulation task) |
+
+[All projects →](https://github.com/sephirxth)
+
 ## License
 
 MIT
